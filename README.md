@@ -51,7 +51,7 @@ Des de GitHub, creem un nou repositori on pujarem el nostre projecte emmagatzema
 Mitjançant el terminal, ens situem dins de la carpeta local ("mkdocs-project") que conté els arxius i a continuació executem:
 
 ```
-$ python -m mkdocs build
+python -m mkdocs build
 ```
 
 Inicialitzem el repositori local i fem el nostre primer commit usant les següents ordres habituals:
