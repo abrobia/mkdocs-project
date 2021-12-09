@@ -1,0 +1,29 @@
+site_name: Recursos ICGC en obert
+site_url: 
+site_description: Recursos ICGC en obert.
+site_author: abrobia
+theme:
+  name: 'material'
+  language: 'ca'
+
+markdown_extensions:
+  - codehilite:
+      linenums: True
+  - admonition
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - footnotes
+repo_url:
+
+nav:
+- Home: index.md
+- 1. Estils ContexMaps àmbit mundial per Vector Tiles: 1_estils contexmaps_ambit_mundial_per_vector_tiles.md
+- 2. Piràmides Vector Tiles (EndPoints): 2_piramides_vector_tiles_endpoints.md
+- 3. Bases Raster Tiles: 3_bases_raster_tiles.md
+- 4. Terrenys: 4_terrenys.md
+- 5. Estils àmbit Catalunya per Vector Tiles: 5_estils_ambit_catalunya_per_vector_tiles.md
+- 6. Demostradors: 6_demostradors.md
+- 7. Eines: 7_eines.md
+
+plugins:
+ - search
