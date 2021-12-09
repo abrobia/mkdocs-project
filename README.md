@@ -16,7 +16,7 @@ pip install mkdocs
 
 ## 2. Creació inicial del projecte
 
-Creem una carpeta en qualsevol directori on inclourem els arxius del projecte. En aquest cas el projecte s'anomena "mkdocs-project".
+Creem una carpeta en qualsevol directori del nostre ordinador on emmagtzemarem tots els arxius del projecte. En aquest cas el projecte s'anomena "mkdocs-project".
 
 ```
 mkdocs new mkdocs-project
@@ -48,7 +48,7 @@ Afegim els [pluguins](https://www.mkdocs.org/dev-guide/plugins/) que desitgem.
 
 Des de GitHub, creem un nou repositori on pujarem el nostre projecte emmagatzemat a l'ordinador fent servir Git.  
 
-Mitjançant el terminal, ens situem dins de la carpeta local ("mkdocs-project") que conté els arxius que pujarem i a continuació executem:
+Mitjançant el terminal, ens situem dins de la carpeta local ("mkdocs-project") que conté els arxius i a continuació executem:
 
 ```
 $ python -m mkdocs build
@@ -62,7 +62,7 @@ site/ > .gitignore
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/abrobia/my_mkdocs_project_3.git
+git remote add origin https://github.com/abrobia/mkdocs-project.git
 git push -u origin main
 $ mkdocs gh-deploy
 
