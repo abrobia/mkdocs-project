@@ -7,7 +7,7 @@ https://abrobia.github.io/mkdocs-project/
 
 ## 1. Instal·lació Mkdocs
 
-Instal·lem Mkdocs al nostre ordinador.
+Instal·lem Mkdocs:
 
 ```
 pip install mkdocs
@@ -16,7 +16,7 @@ pip install mkdocs
 
 ## 2. Creació inicial del projecte
 
-Creem una carpeta en qualsevol directori del nostre ordinador on emmagtzemarem tots els arxius del projecte. En aquest cas el projecte s'anomena "mkdocs-project".
+Creem una carpeta en qualsevol directori del nostre ordinador on emmagtzemarem tots els fitxers del projecte (En aquest cas el projecte s'anomena "mkdocs-project"):
 
 ```
 mkdocs new mkdocs-project
@@ -26,7 +26,7 @@ cd mkdocs-project
 
 ## 3. Inicialització del servidor virtual
 
-Iniciem el servidor Mkdocs a partir de la següent comanda:
+Iniciem el servidor Mkdocs:
 
 ```
 mkdocs serve
@@ -37,11 +37,10 @@ Accedim a http://127.0.0.1:8000 per veure el nostre projecte local des del naveg
 
 ## 3. Configuració del projecte
 
-Creem les pàgines .md de contingut.
-
-Escollim un [theme](https://www.mkdocs.org/user-guide/choosing-your-theme/).
-
-Afegim els [pluguins](https://www.mkdocs.org/dev-guide/plugins/) que desitgem.  
+Els fitxers font de la documentació s'escriuen a Markdown i es configuren amb un únic fitxer de configuració YAML:
+* Creem les pàgines .md de contingut.
+* Escollim un [theme](https://www.mkdocs.org/user-guide/choosing-your-theme/).
+* Afegim els [pluguins](https://www.mkdocs.org/dev-guide/plugins/) que desitgem.  
 
 
 ## 4. Publicació de la web amb GitHub pages

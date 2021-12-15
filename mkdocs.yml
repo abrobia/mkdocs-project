@@ -1,29 +1,68 @@
 site_name: Recursos ICGC en obert
-site_url: 
+site_url: https://abrobia.github.io/mkdocs-project/
+repo_name: GitHub
+repo_url: https://github.com/abrobia/mkdocs-project
 site_description: Recursos ICGC en obert.
-site_author: abrobia
+site_author: Institut Cartogràfic i Geològic de Catalunya
+
 theme:
-  name: 'material'
-  language: 'ca'
+  name: material
+  logo: assets/mini-logo-icgc.png
+  custom_dir: docs/overrides
+  language: ca
+  icon:
+    repo: fontawesome/brands/github
+  favicon: assets/mini-logo-icgc.png
+  features:  
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    # - navigation.indexes
+    - navigation.instant
+    - navigation.top
+    - content.code.annotate
+    # - content.tabs.link
+    # - header.autohide
+    - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.integrate
 
 markdown_extensions:
+  - tables
   - codehilite:
       linenums: True
   - admonition
   - pymdownx.magiclink
   - pymdownx.superfences
   - footnotes
-repo_url:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
 
+extra_css:
+  - stylesheets/extra.css
+
+  # Page tree
 nav:
-- Home: index.md
-- 1. Estils ContexMaps àmbit mundial per Vector Tiles: 1_estils contexmaps_ambit_mundial_per_vector_tiles.md
-- 2. Piràmides Vector Tiles (EndPoints): 2_piramides_vector_tiles_endpoints.md
-- 3. Bases Raster Tiles: 3_bases_raster_tiles.md
-- 4. Terrenys: 4_terrenys.md
-- 5. Estils àmbit Catalunya per Vector Tiles: 5_estils_ambit_catalunya_per_vector_tiles.md
-- 6. Demostradors: 6_demostradors.md
-- 7. Eines: 7_eines.md
-
-plugins:
- - search
+- Inici: index.md
+- Estils per Vector Tiles:
+    - Estils àmbit mundial per Vector Tiles: estils_ambit_mundial_per_vector_tiles.md
+    - Estils àmbit Catalunya per Vector Tiles: estils_ambit_catalunya_per_vector_tiles.md
+- Piràmides Vector Tiles: piramides_vector_tiles.md
+- Bases Raster Tiles: bases_raster_tiles.md
+- Terrenys: terrenys.md
+- Demostradors: demostradors.md
+- Eines: eines.md
