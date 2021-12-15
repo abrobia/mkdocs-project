@@ -74,15 +74,14 @@ _Your documentation should shortly be available at:_ https://abrobia.github.io/m
 
 ## Actualització del projecte
 
-Si es volen fer canvis (modificar, afegir contingut, etc):
+Per fer canvis, modificacions, afegir contingut, etc:
 
 * Creem una nova branch i la clonem des del nostre ordinador (usem SourceTree)
 * Fem els canvis que vulguem des de l'editor (usem Visual Studio Code)
 * Pujem els canvis a partir de les següents ordres:   
 ```
-git init
-git add commit "NOM_DEL_COMMIT"
-git push -u origin "NOM_DE_LA_BRANCH"
+git commit -m "NOM_DEL_COMMIT"
+git push -u origin NOM_DE_LA_BRANCH
 mkdocs gh-deploy
 ```  
 De nou, si tot ha anat bé, la consola mostrarà el següent missatge final:
