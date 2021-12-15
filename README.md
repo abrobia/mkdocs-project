@@ -80,8 +80,9 @@ Si es volen fer canvis (modificar, afegir contingut, etc):
 * Fem els canvis que vulguem des de l'editor (usem Visual Studio Code)
 * Pujem els canvis a partir de les següents ordres:   
 ```
+git init
 git add commit "NOM_DEL_COMMIT"
-git push -u origin update
+git push -u origin "NOM_DE_LA_BRANCH"
 mkdocs gh-deploy
 ```  
 De nou, si tot ha anat bé, la consola mostrarà el següent missatge final:
